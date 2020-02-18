@@ -21,7 +21,8 @@
   "homepage": "https://github.com/3axap4eHko/react-native-katex#readme",
   "dependencies": {
     "katex": "^0.10.0-beta",
-    "prop-types": "^15.6.0"
+    "prop-types": "^15.6.0",
+    "react-native-webview": "^8.1.0"
   },
   "peerDependencies": {
     "react": "*",
