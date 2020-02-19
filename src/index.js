@@ -21,6 +21,7 @@ window.onload = () => katex.render(${JSON.stringify(
   )}, document.body, ${JSON.stringify(options)});
 ${katexScript}
 </script>
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0">
 </head>
 <body>
 </body>
@@ -84,6 +85,8 @@ export default class Katex extends Component {
         onLoad={onLoad}
         onError={onError}
         renderError={onError}
+        scalesPageToFit={false}
+        scrollEnabled={false}
       />
     );
   }
